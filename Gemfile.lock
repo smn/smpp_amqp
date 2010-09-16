@@ -3,6 +3,7 @@ GEM
   specs:
     amqp (0.6.7)
       eventmachine (>= 0.12.4)
+    em-spec (0.2.1)
     eventmachine (0.12.10)
     rake (0.8.7)
     rspec (1.3.0)
@@ -14,6 +15,7 @@ PLATFORMS
 
 DEPENDENCIES
   amqp
+  em-spec
   eventmachine
   rake
   rspec
