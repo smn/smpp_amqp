@@ -1,0 +1,13 @@
+smpp:
+    host: '127.0.0.1'
+    port: 6000
+    username: 'hugo'
+    password: 'ggoohu'
+
+amqp:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    vhost: /
+    exchange: exchange
