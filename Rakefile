@@ -16,9 +16,7 @@ namespace :transport do
   desc "Start the transport"
   task :start do |t|
     config = YAML.load_file(ENV['CONFIG'] || 'config.yaml')
-    EM.run do 
-      Smpp::Amqp.new(config)
-    end
+    Smpp::Amqp.new(config)
   end
 end
 
