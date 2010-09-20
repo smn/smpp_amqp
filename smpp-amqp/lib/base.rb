@@ -34,7 +34,7 @@ class Smpp::Amqp
   end
   
   def outbound &block
-    @outbound ||= queue(exchange, @aconf['outbound'], @aconf['outbound_key'])
+    @outbound ||= queue(exchange, @aconf['outbound_queue'], @aconf['outbound_key'])
     @outbound.subscribe &block
   end
   

@@ -13,7 +13,7 @@ amqp:
     password: guest
     vhost: /
     exchange: exchange
-    outbound: smpp.outbound
+    outbound_queue: smpp.outbound
     outbound_key: outbound.key
     inbound_key: inbound.key
     delivery_report_key: inbound.delivery_report
