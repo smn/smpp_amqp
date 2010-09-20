@@ -1,8 +1,3 @@
-# require 'eventmachine'
-# require 'amqp'
-# require 'mq'
-# require 'json'
-
 class Smpp::Amqp::Transport < Smpp::Amqp
   
   def initialize(config)
