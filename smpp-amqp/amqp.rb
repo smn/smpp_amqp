@@ -1,1 +1,2 @@
-require File.dirname(__FILE__) + '/lib/amqp'
+require File.dirname(__FILE__) + '/lib/base'
+require File.dirname(__FILE__) + '/lib/transport'

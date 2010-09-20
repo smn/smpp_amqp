@@ -19,7 +19,7 @@ namespace :transport do
     EM.run do
       trap("INT") { EM.stop }
       trap("TERM") { EM.stop }
-      Smpp::Amqp.new(config)
+      Smpp::Amqp::Transport.new(config)
     end
   end
 end

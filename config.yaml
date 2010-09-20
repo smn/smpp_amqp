@@ -12,4 +12,11 @@ amqp:
     username: guest
     password: guest
     vhost: /
+    exchange: exchange
+    outbound: smpp.outbound
+    outbound_key: outbound.key
+    inbound_key: inbound.key
+    delivery_report_key: inbound.delivery_report
+    accepted_key: inbound.accepted
+    rejected_key: inbound.rejected
     
