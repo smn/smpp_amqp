@@ -15,7 +15,7 @@ end
 namespace :transport do
   desc "Start the transport"
   task :start do |t|
-    config = YAML.load_file(ENV['CONFIG'] || 'config.yaml')
+    config = YAML.load_file(ENV['config'] || 'config.yaml')
     EM.run do
       trap("INT") { EM.stop }
       trap("TERM") { EM.stop }
@@ -23,4 +23,3 @@ namespace :transport do
     end
   end
 end
-
