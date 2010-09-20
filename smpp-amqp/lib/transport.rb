@@ -1,7 +1,7 @@
-require 'eventmachine'
-require 'amqp'
-require 'mq'
-require 'json'
+# require 'eventmachine'
+# require 'amqp'
+# require 'mq'
+# require 'json'
 
 class Smpp::Amqp::Transport < Smpp::Amqp
   
