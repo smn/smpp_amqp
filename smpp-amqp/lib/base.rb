@@ -84,6 +84,7 @@ class Smpp::Amqp
   end
   
   def connect_smpp(config)
+    # FIXME: this is fairly ugly
     log.info "Connecting SMPP Transceiver to #{config["host"]}:#{config["port"]}"
     @transceiver = EventMachine::connect(
       config["host"], 
