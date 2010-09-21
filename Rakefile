@@ -1,3 +1,4 @@
+$:<< File.dirname(__FILE__)
 require 'rubygems'
 require 'bundler/setup'
 require 'spec/rake/spectask'
